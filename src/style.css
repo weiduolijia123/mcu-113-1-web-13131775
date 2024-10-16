@@ -3,8 +3,9 @@ body {
   padding: 0;
   width: 90%;
 }
-header {
+h3 {
   text-align: center;
+  color: rgba(0, 0, 0, 0.8);
 }
 .card {
   border: solid 1px #999;
@@ -47,4 +48,8 @@ th.name {
 }
 footer {
   margin-top: 20px;
+}
+tr.first {
+  background-color: #777;
+  color: white;
 }

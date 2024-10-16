@@ -17,7 +17,9 @@ input[type="text"] {
   width: 200px;
   margin-bottom: 10px;
 }
-
+tr:hover {
+  background-color: yellow;
+}
 table {
   border-collapse: collapse;
   width: 100%;
@@ -49,6 +51,13 @@ ul > li {
   display: inline-block;
   padding: 8px;
   text-align: center;
+}
+a,
+a:active,
+a:hover,
+a:focus {
+  color: black;
+  text-decoration: none;
 }
 th.name {
   padding: 8px;

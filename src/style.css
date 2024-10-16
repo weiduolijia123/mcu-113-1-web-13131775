@@ -15,8 +15,9 @@ h3 {
 input[type="text"] {
   height: 25px;
   width: 200px;
-  margin: 10px 0px;
+  margin-bottom: 10px;
 }
+
 table {
   border-collapse: collapse;
   width: 100%;
@@ -39,8 +40,15 @@ th.cost {
   width: 100px;
   padding: 8px;
 }
-a {
-  margin: 10px 0px;
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+ul > li {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 8px;
+  text-align: center;
 }
 th.name {
   padding: 8px;

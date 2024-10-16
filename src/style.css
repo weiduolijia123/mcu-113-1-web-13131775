@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 header {
   text-align: center;
 }
@@ -9,4 +13,22 @@ header {
 input[type="text"] {
   height: 25px;
   width: 200px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  height: 30;
+}
+th.id {
+  width: 120px;
+  text-align: center;
+}
+th.company {
+  width: 150px;
+}
+th.cost {
+  width: 100px;
 }
